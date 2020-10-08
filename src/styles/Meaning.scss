@@ -1,0 +1,35 @@
+section {
+  width: 100%;
+  display: flex;
+
+  & article {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 560px;
+
+      & h1 {
+        font-size: 40px;
+        font-weight: 400;
+      }
+
+      & p {
+        font-size: 30px;
+        text-align: center;
+      }
+    }
+  }
+
+  & div.meaning-image {
+    width: 50%;
+    height: 620px;
+    background-image: url("../images/meaning-background-image.jpg");
+    background-size: cover;
+  }
+}

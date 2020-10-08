@@ -1,0 +1,43 @@
+div.purchase-image-background {
+  background-image: url("../images/purchase-image-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  width: 50%;
+  height: 620px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h3 {
+    font-size: 35px;
+  }
+
+  & p {
+    font-size: 30px;
+  }
+
+  & button {
+    font-family: "roboto", san-serif;
+    background-color: #70a482;
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: 3px solid #70a482;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+
+    &:hover {
+      background: white;
+      color: #70a482;
+      font-weight: 700;
+      border: 3px solid #70a482;
+      transition: all 0.3s ease-out;
+    }
+  }
+}
