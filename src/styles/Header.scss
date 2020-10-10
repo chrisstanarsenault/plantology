@@ -6,12 +6,12 @@ header {
 
   div.logo-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 50%;
 
     .logo {
       position: relative;
-      left: 63px;
+      right: 70px;
       width: 140px;
       height: 140px;
     }

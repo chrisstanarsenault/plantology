@@ -29,7 +29,10 @@ section {
   & div.meaning-image {
     width: 50%;
     height: 620px;
-    background-image: url("../images/meaning-background-image.jpg");
+    background-image: url("../images/meaning-image-background.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
   }
 }
